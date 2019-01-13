@@ -1,0 +1,74 @@
+html {
+  font-size: 14px; }
+
+html,
+body,
+.container {
+  height: 100%; }
+
+body {
+  background: url("../img/carina-blurred.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2rem;
+  color: #FAFAF3;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0; }
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  display: table; }
+
+.content {
+  display: table-cell;
+  vertical-align: middle; }
+
+img {
+  max-width: 150px;
+  width: 100%;
+  height: auto; }
+
+.btn {
+  padding: 15px 30px;
+  color: #252525;
+  font-size: 1.3rem;
+  text-decoration: none;
+  border-radius: 5px; }
+
+.btn:hover {
+  text-decoration: none; }
+
+.btn-primary {
+  background: #F4D194; }
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0; }
+  .social-links li {
+    display: inline-block; }
+    .social-links li a {
+      color: #08364C;
+      cursor: pointer; }
+
+@media screen and (min-width: 767px) {
+  body {
+    font-size: 3rem; }
+
+  img {
+    max-width: 200px;
+    width: 100%;
+    height: auto; }
+
+  .btn {
+    font-size: 1.8rem; } }
+
+/*# sourceMappingURL=styles.css.map */
